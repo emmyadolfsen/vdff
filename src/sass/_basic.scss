@@ -1,0 +1,178 @@
+//$bg-color: #dbd9d9;
+$header-bg-color: #dadbe2;
+$bg-color: darken($header-bg-color, 10%);
+$border-color: darken($bg-color, 10%);
+body {
+    width: 100%;
+    margin: auto;
+    background-color: $bg-color;
+    //font-family: p22-underground, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+header {
+    font-family: righteous;
+    background: $header-bg-color;
+    width: 100%;
+    padding: 2rem 0;
+    box-shadow: 0 1px 5px darken($header-bg-color, 5%);
+    position: fixed;
+    ul {
+        padding-top: 0.3%;
+        text-align: right;
+        float: right;
+    }
+    li {
+        display: inline;
+        margin: 1rem 1rem 1rem 0;
+        padding-right: 1rem;
+        border-right: 1px solid rgb(122, 122, 122);
+        text-transform: uppercase;
+        font-size: 1rem;
+    }
+    #main-nav {
+        width: 80%;
+        margin: auto;
+        max-width: 900px;
+    }
+    #last {
+        margin-right: 0;
+        padding-right: 0;
+        border-right: 0;
+    }
+}
+
+.header {
+    top: 0;
+}
+
+#main-section {
+    max-width: 700px;
+    width: 80%;
+    margin: auto;
+}
+
+h1 {
+    float: left;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: rgb(71, 70, 70);
+}
+
+h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: rgb(71, 70, 70);
+    padding-top: 7rem;
+}
+
+h3 {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 1rem;
+    color: rgb(51, 50, 50);
+    border-bottom: 1px solid $border-color;
+}
+
+#datum {
+    float: left;
+    color: rgb(54, 54, 54);
+    font-weight: 700;
+    width: 100%;
+    padding-top: 1rem;
+    text-align: right;
+}
+
+li {
+    padding: 0 0 0.5rem 0.5rem;
+    list-style-type: disc;
+    list-style-position: inside
+}
+
+img {
+    clear: both;
+    float: left;
+    border-radius: 2%;
+    width: 180px;
+    height: 140px;
+    object-fit: cover;
+    margin-right: 1rem;
+}
+
+article {
+    float: left;
+    background: $header-bg-color;
+    padding: 1.5rem;
+    padding-top: 1rem;
+    margin: 1rem 0 2rem 0;
+    box-shadow: 0 3px 10px #B9B8B8;
+}
+
+article b {
+    font-weight: 600;
+}
+
+.info-box {
+    width: 48%;
+    margin: 0 2% 1rem 0;
+    float: left;
+}
+
+.right-box {
+    margin: 0 0 1rem 2%;
+    float: right;
+}
+
+
+/*
+.hero-image {
+    float: left;
+    width: 100%;
+    background-image: url("../images/snowy-mountain-top.jpg");
+    background-color: #cccccc;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+*/
+
+a:link {
+    color: rgb(77, 77, 110);
+}
+
+a:visited {
+    color: rgb(77, 77, 110);
+}
+
+a:hover {
+    color: rgb(184, 146, 165);
+}
+
+a:active {
+    color: rgb(138, 138, 170);
+}
+
+.empty-space {
+    float: left;
+    display: block;
+    width: 100%;
+    height: 8rem;
+}
+
+footer {
+    float: left;
+    font-family: righteous;
+    background: #edecec;
+    width: 100%;
+    padding: 2rem 0;
+    box-shadow: 0 3px 10px #B9B8B8;
+    text-align: center;
+    bottom: 0;
+}

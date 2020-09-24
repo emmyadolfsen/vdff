@@ -1,0 +1,138 @@
+@media only screen and (max-width: 1000px) {
+    /*******HIDE***************
+    *******************************/
+    #main-nav ul {
+        display: none;
+    }
+    #main-nav {
+        ul {
+            width: 100%;
+            position: relative;
+            float: none;
+            text-align: center;
+            padding: 4rem 0 2rem 0;
+        }
+        li {
+            display: block;
+            margin: 1%;
+            padding: 2%;
+            border-right: none;
+            font-size: 1.5rem;
+        }
+    }
+    a {
+        padding: 0 0 1% 0;
+        border-bottom: 1px solid rgb(122, 122, 122);
+    }
+    h1 {
+        width: 100%;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    h2 {
+        font-size: 1.1rem;
+        padding-top: 4rem;
+    }
+    header {
+        position: absolute;
+        padding: 1rem 0;
+    }
+    #main-section {
+        width: 96%;
+    }
+    /******HAMBURGER***********
+    *******MENU******************/
+    .ham-menu {
+        position: absolute;
+        z-index: 200;
+        top: 10px;
+        display: inline-block;
+        cursor: pointer;
+    }
+    .bar1,
+    .bar2,
+    .bar3 {
+        width: 35px;
+        height: 5px;
+        background-color: rgb(71, 70, 70);
+        margin: 6px 0 6px 50%;
+        transition: 0.4s;
+    }
+    /* Rotera */
+    .change {
+        .bar1 {
+            -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+            transform: rotate(-45deg) translate(-9px, 6px);
+        }
+        /* Göm */
+        .bar2 {
+            opacity: 0;
+        }
+        /* Rotera */
+        .bar3 {
+            -webkit-transform: rotate(45deg) translate(-8px, -8px);
+            transform: rotate(45deg) translate(-8px, -8px);
+        }
+    }
+    footer {
+        float: left;
+        bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    h1 {
+        font-size: 1.2rem;
+    }
+    li a {
+        font-size: 1.2rem;
+    }
+    .info-box {
+        width: 100%;
+    }
+    .right-box {
+        float: left;
+        margin: 0 2% 1rem 0;
+    }
+    img {
+        float: left;
+        border-radius: 2%;
+        width: 100px;
+        height: 80px;
+        object-fit: cover;
+        margin-right: 1rem;
+    }
+}
+
+@media only screen and (max-width: 615px) {
+    h1 {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    header {
+        padding-bottom: 0.8rem;
+        padding-top: 0.5rem;
+    }
+    li a {
+        font-size: 1rem;
+    }
+    .bar1,
+    .bar2,
+    .bar3 {
+        margin: 6px 0 6px 30%;
+    }
+    h1 {
+        font-size: 1rem;
+    }
+    h2 {
+        padding-top: 5rem;
+    }
+    article {
+        padding: 0.8rem;
+    }
+    .ham-menu {
+        top: 4px;
+    }
+}
