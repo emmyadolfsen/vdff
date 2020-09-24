@@ -1,6 +1,6 @@
 //$bg-color: #dbd9d9;
-$header-bg-color: #dadbe2;
-$bg-color: darken($header-bg-color, 10%);
+$header-bg-color: #dadbe2af;
+$bg-color: darken($header-bg-color, 5%);
 $border-color: darken($bg-color, 10%);
 body {
     width: 100%;
@@ -14,7 +14,7 @@ body {
 
 header {
     font-family: righteous;
-    background: $header-bg-color;
+    background: #edecec;
     width: 100%;
     padding: 2rem 0;
     box-shadow: 0 1px 5px darken($header-bg-color, 5%);
@@ -129,19 +129,20 @@ article b {
 }
 
 
-/*
+
 .hero-image {
     float: left;
     width: 100%;
-    background-image: url("../images/snowy-mountain-top.jpg");
+    //background: url(background-photo.jpg) center center cover no-repeat fixed;
+    background-image: url("../images/snowy-mountain-top-dark-small.gif");
     background-color: #cccccc;
-    height: auto;
-    background-position: center;
+    //height: auto;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
-*/
+
 
 a:link {
     color: rgb(77, 77, 110);
@@ -153,6 +154,7 @@ a:visited {
 
 a:hover {
     color: rgb(184, 146, 165);
+    cursor: pointer;
 }
 
 a:active {
