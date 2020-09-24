@@ -1,0 +1,1 @@
+function hamburger(n){n.classList.toggle("change")}$(document).ready((function(){$(".button").click((function(){$("#main-nav ul").slideToggle("fast")}))}));
